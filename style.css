@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+td, th {
+    padding: 5px;
+}
+thead, tfoot {
+    background: #AAA;
+}
+td {
+    border-top: 1px solid;
+    height: 25px;
+    text-align: center;
+}
+tbody {
+    background: #eee;
+}
+tbody tr:hover {
+    background: #444;
+    color: #fff;
+}
+
+tbody tr td a:hover {
+    color: #fff;
+}
+
+.filter-wrapper {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.filter-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.filter-wrapper > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+.mt-20 {
+    margin-top: 20px;
+    padding: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.d-flex {
+    display: flex;
+}
+.border-0 {
+    border: none;
+}
+#message {
+    color: red;
+}
